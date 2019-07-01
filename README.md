@@ -1,3 +1,10 @@
-# PHP Template
+# Dot Notation
 
-Use this template to get started with a new standard PHP App.
+Implementation of dot notation syntax for accessing an array.
+
+An example:
+```
+$array = ['hello' => ['world' => 'find me']];
+DotNotation::get($array, 'hello.world'); // 'find me'
+```
+
